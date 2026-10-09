@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpendWise Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Dashboard Grid Shell -->
+  <div class="dashboard-container">
+
+    <!-- Sidebar / Navigation Menu -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <h2>SpendWise</h2>
+      </div>
+      <nav class="sidebar-nav">
+        <a href="#" class="nav-item active" tabindex="0">Dashboard</a>
+        <a href="#" class="nav-item" tabindex="0">Expenses</a>
+        <a href="#" class="nav-item" tabindex="0">Categories</a>
+        <a href="#" class="nav-item" tabindex="0">Analytics</a>
+        <a href="#" class="nav-item" tabindex="0">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Header -->
+      <header class="dashboard-header">
+        <div class="header-title">
+          <h1>Financial Dashboard</h1>
+          <p class="subtitle">Welcome back, track your spending categories below.</p>
+        </div>
+        <div class="header-profile" tabindex="0">
+          <span class="profile-avatar">JD</span>
+          <span class="profile-name">John Doe</span>
+        </div>
+      </header>
+
+      <!-- Dashboard Cards Section (Grid layout for cards) -->
+      <section class="cards-grid">
+        
+        <!-- Card 1: Food -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Food & Dining</h3>
+            <span class="badge food">Active</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$450.00</p>
+            <p class="budget-limit">Limit: $600.00</p>
+          </div>
+        </div>
+
+        <!-- Card 2: Transport -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Transport</h3>
+            <span class="badge transport">Active</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$180.50</p>
+            <p class="budget-limit">Limit: $250.00</p>
+          </div>
+        </div>
+
+        <!-- Card 3: Rent -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Rent & Housing</h3>
+            <span class="badge rent">Fixed</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$1,200.00</p>
+            <p class="budget-limit">Limit: $1,200.00</p>
+          </div>
+        </div>
+
+        <!-- Card 4: Entertainment -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Entertainment</h3>
+            <span class="badge entertainment">Active</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$95.00</p>
+            <p class="budget-limit">Limit: $150.00</p>
+          </div>
+        </div>
+
+        <!-- Card 5: Savings -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Savings</h3>
+            <span class="badge savings">Goal</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$500.00</p>
+            <p class="budget-limit">Target: $500.00</p>
+          </div>
+        </div>
+
+        <!-- Card 6: Utilities -->
+        <div class="category-card" tabindex="0">
+          <div class="card-header">
+            <h3>Utilities</h3>
+            <span class="badge utilities">Active</span>
+          </div>
+          <div class="card-body">
+            <p class="amount">$125.40</p>
+            <p class="budget-limit">Limit: $150.00</p>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+  </div>
+
+</body>
+</html>
